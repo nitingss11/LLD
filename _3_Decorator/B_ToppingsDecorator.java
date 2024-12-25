@@ -13,12 +13,12 @@ public abstract class B_ToppingsDecorator implements A_Pizza {
         this.pizza = pizza;
     }
 
-    public String getDescription() {
-        return pizza.getDescription();
-    }
+    // public String getDescription() {
+    //     return pizza.getDescription();
+    // }
 
-    public int getCost() {
-        return pizza.getCost();
-    }
+    // public int getCost() {
+    //     return pizza.getCost();
+    // }
 
 }
