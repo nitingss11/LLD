@@ -1,5 +1,6 @@
-public class main {
+package _2_Observer;
 
+public class main {
     public static void main(String[] args) {
 
         A1_WeatherStation weatherStation = new A1_WeatherStation();

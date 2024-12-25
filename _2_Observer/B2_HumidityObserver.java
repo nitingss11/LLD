@@ -1,3 +1,5 @@
+package _2_Observer;
+
 public class B2_HumidityObserver implements B_Observer {
 
     private A1_WeatherStation weatherStation;

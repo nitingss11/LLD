@@ -1,4 +1,4 @@
-package Observer2;
+package _2_Observer2;
 
 public class B2_Conc implements B_Observer {
     

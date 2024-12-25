@@ -1,3 +1,5 @@
+package _2_Observer;
+
 import java.util.*;
 
 public class A1_WeatherStation implements A_Subject {

@@ -1,3 +1,5 @@
+package _2_Observer;
+
 public class B1_TemperatureObserver implements B_Observer {
 
     //Sinch Observers can only point to one subject. Might as well be concrete

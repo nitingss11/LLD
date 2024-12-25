@@ -1,4 +1,4 @@
-package Strategy;
+package _1_Strategy;
 
 public class B1_FlyWithWings implements B_FlyBehaviour {
     

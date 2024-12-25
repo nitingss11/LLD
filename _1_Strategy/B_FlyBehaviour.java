@@ -1,4 +1,4 @@
-package Strategy;
+package _1_Strategy;
 
 //Interface of the strategy, we code to
 public interface B_FlyBehaviour {

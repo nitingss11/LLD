@@ -1,4 +1,4 @@
-package Strategy;
+package _1_Strategy;
 
 public class A2_RubberDuck extends A_Duck {
     
