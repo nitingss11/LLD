@@ -1,10 +1,10 @@
 package Strategy;
 
-public abstract class Duck {
+public abstract class A_Duck {
     
-    private FlyBehaviour flyBehaviour;
+    private B_FlyBehaviour flyBehaviour;
     
-    public Duck(FlyBehaviour flyBehaviour) {
+    public A_Duck(B_FlyBehaviour flyBehaviour) {
         this.flyBehaviour = flyBehaviour;
     }
 
@@ -19,7 +19,7 @@ public abstract class Duck {
         this.flyBehaviour.fly();
     }
 
-    public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+    public void setFlyBehaviour(B_FlyBehaviour flyBehaviour) {
         this.flyBehaviour = flyBehaviour;
     }
 

@@ -1,6 +1,6 @@
 package Strategy;
 
-public class FlyWithWings implements FlyBehaviour {
+public class B1_FlyWithWings implements B_FlyBehaviour {
     
     public void fly() {
         System.out.println("I'm flying with wings");

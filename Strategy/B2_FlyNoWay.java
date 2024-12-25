@@ -1,6 +1,6 @@
 package Strategy;
 
-public class FlyNoWay implements FlyBehaviour {
+public class B2_FlyNoWay implements B_FlyBehaviour {
     
     public void fly() {
         System.out.println("I can't fly");

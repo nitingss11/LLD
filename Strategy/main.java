@@ -4,13 +4,13 @@ public class main {
     
     public static void main(String[] args) {
 
-        Duck goose = new GooseDuck();
+        A_Duck goose = new A1_GooseDuck();
         goose.performFly();
     
-        Duck rubberDuck = new RubberDuck();
+        A_Duck rubberDuck = new A2_RubberDuck();
         rubberDuck.performFly();
         
-        rubberDuck.setFlyBehaviour(new FlyRocketPowered());
+        rubberDuck.setFlyBehaviour(new B3_FlyRocketPowered());
         rubberDuck.performFly();
 
     }
